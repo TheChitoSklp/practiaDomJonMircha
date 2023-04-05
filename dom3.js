@@ -6,4 +6,5 @@ $card.classList.remove("rotate-45");
 // palanca toggle hace lo contrario a lo que tiene
 $card.classList.toggle("rotate-45");
 $card.classList.replace("rotate-45", "rotate-135");
+//puedes agregar varias con "",
 $card.classList.add("opacity-80", "sepia");
