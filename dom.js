@@ -32,9 +32,10 @@ console.log($linkDOM.hasAttribute("rel"));
 console.log($linkDOM.getAttribute("data-description"));
 console.log($linkDOM.dataset);
 console.log($linkDOM.dataset.description);
+//AQUI ES CON UNA FUNCION
 $linkDOM.setAttribute("data-description", "Modelo de Objeto del Documento");
 console.log($linkDOM.dataset.description);
 
-//OTRA FORMA DE HACER LO DE ACA ARRIBA
+//OTRA FORMA DE HACER LO DE ACA ARRIBA ACA ES CON .
 $linkDOM.dataset.description = "suscrito al jon";
 console.log($linkDOM.dataset.description);
